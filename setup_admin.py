@@ -2,7 +2,7 @@ import os
 import django
 
 # Konfiguracja środowiska Django
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'twoja_nazwa_projektu.settings') # Zmień na nazwę swojego folderu z settings.py
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'voting_system.settings') # Zmień na nazwę swojego folderu z settings.py
 django.setup()
 
 from django.contrib.auth import get_user_model
