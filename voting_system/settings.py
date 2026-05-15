@@ -11,8 +11,8 @@ if os.environ.get('RENDER') is not None:
     DEBUG = False
     ALLOWED_HOSTS = ['*']
     CORS_ALLOWED_ORIGINS = [
-        'https://twoja-domena-frontend.vercel.app',
-        'https://twoja-domena-frontend.netlify.app',
+        'https://voting-system-frontend-jade.vercel.app',
+        'https://voting-system-frontend-jade.netlify.app',
     ]
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost,127.0.0.1').split(',')
