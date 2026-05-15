@@ -13,6 +13,7 @@ if os.environ.get('RENDER') is not None:
     CORS_ALLOWED_ORIGINS = [
         'https://voting-system-frontend-jade.vercel.app',
         'https://voting-system-frontend-jade.netlify.app',
+        'https://voting-system-api-a8l3.onrender.com/admin/',
     ]
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost,127.0.0.1').split(',')
